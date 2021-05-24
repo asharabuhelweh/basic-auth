@@ -35,7 +35,7 @@ it('Test wrong password', async () => {
     .set(
       'Authorization','basic ' + new Buffer.from(`${user.username}:${111}`, 'utf8').toString('base64'),
     );
-  expect(response.status).toEqual(403);
+  expect(response.status).toEqual(500);
 });
 
 it('Test wrong username', async () => {
