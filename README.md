@@ -3,11 +3,11 @@
 
 ## Author: As-har Abuhelweh  
 
-* [Tests Report]()
+* [Tests Report](https://github.com/asharabuhelweh/basic-auth/actions)
 
-* [Heroku Deployment]()
+* [Heroku Deployment](https://ashar-basic-auth.herokuapp.com/)
 
-* [Pull Request]()
+* [Pull Request](https://github.com/asharabuhelweh/basic-auth/pull/4)
 
 ### Setup
 
@@ -45,4 +45,4 @@ You can signin by sending post request using postman.
 { user { "username": "String", "password": "String", } }
 ### UML
 
-![uml](./uml.png)
+![uml](uml.png)
